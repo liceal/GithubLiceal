@@ -1,0 +1,5 @@
+1.git config --global user.name "liceal"
+2.git config --global user.email "675024132@qq.com"
+3.ssh -t git@github.com 链接github
+克隆:
+git clone+github上的文件链接
