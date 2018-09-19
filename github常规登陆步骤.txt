@@ -1,5 +1,20 @@
-1.git config --global user.name "liceal"
+﻿1.git config --global user.name "liceal"
 2.git config --global user.email "675024132@qq.com"
 3.ssh -t git@github.com 链接github
+
+ssh-keygen -t rsa -C "675024132@qq.com"//设置key 
+
+1.先查看下服务器仓库或者远程仓库
+git remote -v
+
+2.获取最新的版本到本地
+git fetch origin master
+
+3.比较本地和远程仓库代码的差别
+git log -p  master.. origin/master
+
+4.远程下载的代码和本地合并
+git merge origin/master
+
 克隆:
 git clone+github上的文件链接
