@@ -18,3 +18,9 @@ git merge origin/master
 
 克隆:
 git clone+github上的文件链接
+
+下载：
+git add 指定文件
+git commit -m "信息"
+git push
+然后等待 输入帐号密码
