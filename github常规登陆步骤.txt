@@ -19,7 +19,7 @@ git merge origin/master
 克隆:
 git clone+github上的文件链接
 
-下载：
+上传：
 git add 指定文件
 git commit -m "信息"
 git push

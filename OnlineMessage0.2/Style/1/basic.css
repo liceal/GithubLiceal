@@ -1,7 +1,7 @@
 @CHARSET "UTF-8";
 *{
-	margin:0px;
-	padding:0px;
+	margin:0;
+	padding:0;
 }
 body{
 	width:960px;
@@ -66,6 +66,6 @@ h2{
 	font-size: 12px;
 	letter-spacing: 1px;
 }
-#footer p span{
+#footer p span {
 	color: #06f;
 }
