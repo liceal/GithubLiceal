@@ -22,6 +22,9 @@ git -u origin/master
 6.修改本地推送到的远程仓库地址
 git remote add origin 地址
 
+7.将本次更改更新到github项目上去
+git push -u origin master
+
 克隆:
 git clone+github上的文件链接
 
