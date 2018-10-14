@@ -25,6 +25,12 @@ git remote add origin 地址
 7.将本次更改更新到github项目上去
 git push -u origin master
 
+8.add全部内容
+git add .
+
+9.同步仓库全部内容到本地
+git pull origin master
+
 克隆:
 git clone+github上的文件链接
 
