@@ -39,3 +39,6 @@ git add 指定文件
 git commit -m "信息"
 git push
 然后等待 输入帐号密码
+
+查看仓库提交历史
+git log --oneline
