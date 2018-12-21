@@ -40,5 +40,11 @@ git commit -m "信息"
 git push
 然后等待 输入帐号密码
 
-查看仓库提交历史
+本地创建以及绑定仓库：
+git init 创建仓库
+git remote add origin https//github.com.... 绑定仓库，这个网址是你仓库地址
+   之后就可以进行正常的add commit push
+
+查看仓库提交历史：
 git log --oneline
+git log -n //查看n个历史详情，不填查看全部，会得到commit xxxx... 唯一码
